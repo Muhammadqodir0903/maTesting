@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: #00000020;
+
+    }
+
+    .wrap {
+        position: relative;
+        left: top;
+        width: 350px;
+        border: 1px solid #000;
+    }
+
+    .inp {
+        margin: 0 auto;
+        display: block;
+        width: 300px;
+        height: 50px;
+        border: 2px solid green;
+        font-size: 30px;
+    }
+
+    .inpp {
+        margin: 0 auto;
+        margin-top: 15px;
+        display: block;
+        width: 300px;
+        height: 50px;
+        border: 2px solid rgb(128, 0, 0);
+        font-size: 30px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 10px;
+        padding: 10px;
+        border: 1px solid green;
+        border-radius: 5px;
+        background-color: green;
+        color: aliceblue;
+    }
+
+    li {
+        margin-left: 100px;
+        margin-top: 20px;
+        font-size: 40px;
+
+    }
+</style>
+
+<body>
+    <div class="wrap">
+        <center>
+            <h1>Test</h1>
+        </center>
+        <input type="text" class="inp" placeholder="Tekshirish">
+        <button onclick="myFn() ">Tekshir</button>
+
+        <input type="text" class="inpp" placeholder="Qo'shish">
+        <button onclick="qoshish()">Qo'shish</button>
+    </div>
+    <div class="bot">
+        <ul class="list">
+
+        </ul>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
